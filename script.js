@@ -1,6 +1,6 @@
 const quoteText = document.querySelector(".quote");
 const btn = document.querySelector("button");
-const URL = "https://api.quotable.io/quotes/random";
+const URL = "https://api.quotable.io/random";
 
 btn.addEventListener("click", randomQuote);
 
@@ -11,5 +11,6 @@ function randomQuote() {
     })
     .then((result) => {
       console.log(result);
+      quoteText.innerHTML = result.content;
     });
 }
