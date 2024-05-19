@@ -6,6 +6,7 @@ const URL = "https://api.quotable.io/random";
 btn.addEventListener("click", randomQuote);
 
 function randomQuote() {
+  btn.innerHTML = "Loading...";
   fetch(URL)
     .then((response) => {
       return response.json();
@@ -14,5 +15,6 @@ function randomQuote() {
       //   console.log(result);
       quoteText.innerHTML = result.content;
       authorName.innerHTML = result.author;
+      btn.innerHTML = "New Quote";
     });
 }
