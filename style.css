@@ -74,3 +74,12 @@ li {
   justify-content: center;
   border-radius: 50%;
 }
+.features button {
+  border: none;
+  outline: none;
+  background-color: goldenrod;
+  padding: 13px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
