@@ -40,3 +40,8 @@ body {
   font-size: 22px;
   text-align: center;
 }
+.content .author {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
