@@ -57,7 +57,20 @@ body {
 .features {
   display: flex;
   align-items: center;
+  margin-top: 20px;
   justify-content: space-between;
 }
-ul {
+.features ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin: 0 5px;
+  width: 45px;
+  height: 45px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
