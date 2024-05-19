@@ -25,3 +25,11 @@ body {
   text-align: center;
   color: beige;
 }
+.content {
+  margin: 35px 0;
+  color: beige;
+}
+.quote-area {
+  display: flex;
+  justify-content: center;
+}
