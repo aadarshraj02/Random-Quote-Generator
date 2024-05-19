@@ -13,3 +13,9 @@ body {
   height: 100vh;
   background-color: goldenrod;
 }
+.wrapper {
+  width: 600px;
+  background-color: rgb(13, 94, 30);
+  padding: 30px;
+  border-radius: 2rem;
+}
