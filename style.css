@@ -29,6 +29,9 @@ body {
   margin: 35px 0;
   color: beige;
 }
+.quote-area i {
+  font-size: 15px;
+}
 .quote-area {
   display: flex;
   justify-content: center;
